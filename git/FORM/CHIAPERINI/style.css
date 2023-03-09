@@ -1,0 +1,703 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+main{
+  width: auto;
+  margin: 0% 3.5%;
+  padding-bottom: 100px;
+  background-color: #d8d8d8;
+  /*background-color: rgb(48, 94, 90);*/
+}
+
+/* faixa logo */
+
+.upper{
+  text-transform: uppercase;
+}
+
+img{
+  width: 17%;
+}
+
+.auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ctr{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.white{
+  color: #fff;
+}
+
+/* Define a tabela como alinhada ao centro */
+table{
+  font-size: 1vw;
+  /*background-color: #000;*/
+  align-items: center;
+  margin: 0px;
+}
+
+/* Aplicação de estilo para hover */
+.just-hover{
+  width: 100%;
+}
+
+/* Aplicação de estilo para hover */
+.just-hover:hover{
+  background-color: #d3d3d3;
+}
+
+/* Aplicação de estilo para hover */
+.just-hover-item{
+  width: auto;
+}
+
+/* Aplicação de estilo para hover */
+.just-hover-item:hover{
+  background-color: #d3d3d3;
+}
+
+/* Para todos os textareas */
+textarea{
+  text-transform: uppercase;
+}
+
+/* Estilo do botão */
+.btn{
+  background-color: #000b49;
+  color: #d8d8d8;
+  padding: 10px 20px;
+}
+
+/* Estilo do botão */
+.btn:hover{
+  background-color: #000f61;
+  color: #ecdf2a;
+  padding: 10px 20px;
+}
+
+/* Estilo do campo descrição, a textarea */
+.desc{
+  color: #ffffff00;
+  border-width: 1px;
+  color: #000;
+  border-style: solid;
+  border-color: #ffffff00;
+  outline: #ffffff00;
+  font-size: 0.77vw;
+  width: 100%;
+  height: 220px;
+  padding: 10px;
+}
+
+/* Margim que separa a faixa com o logo do formulário */
+.mg{
+  margin-top: 8%;
+}
+
+/* Faixa azul */
+.top{
+  z-index: 15;
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  height: auto;
+  background-color: #000b49;
+  position: fixed;
+  top: 0;
+}
+
+/* Alinha itens um abaixo ao outro */
+.inline{
+  display: inline;
+}
+
+/* propriedades para todos os links */
+a{
+  text-decoration: none;
+  color: #000b49;
+  text-align: center;
+}
+
+/* Linha da tabela de pedido */
+tr:hover{
+  transition: 0.5s;
+}
+
+/* Borda da tabela de pedido */
+td {
+  border: 2px solid #000000;
+  font-size: 14px;
+}
+
+th{
+  transition: 0.5s;
+}
+
+/* Aplicação à todas as divs */
+div {    
+  margin:0; /*Defina a separacao das colunas aqui*/
+  padding:0;
+}
+
+/* linha aplicada as divs */
+.linha{
+  padding:0;
+  clear:both;
+}
+
+/* Tabela pedidos */
+.coluna{    
+  height:25px;
+  border: 1px solid #000000;
+  width:120;      
+  float:left;
+}
+
+/* manipula lista de clientes da empresa selecionada */
+.cardd{
+  /*background-color: #000b49;*/
+  background-color: #ffffff;
+  color: #d8d8d8;
+  border-radius: 15px;
+  width: auto;
+  text-align: center;
+  font-size: 10px;
+  height: 700px;
+  padding: 30px;
+  margin-top: 7%;
+}
+
+button{
+  border-width: 0px;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.buttons{
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0%;
+  color: #fff;
+  text-align: center;
+  background-color: rgb(0, 1, 70);
+  border-radius: 10px;
+  padding: 50px;
+  display: flex;
+  width: 25%;
+}
+
+.disable{
+  opacity: 0.7;
+}
+
+.enable{
+  opacity: 1;
+}
+
+.buttons2{
+  border-radius: 0px;
+  padding: 0px;
+  width: 25%;
+  margin: auto;
+}
+
+.new{
+  width: 50%;
+  margin-top: -11px;
+  margin-right: 0px;
+  text-align: start;
+}
+
+.open{
+  width: 50%;
+  margin-right: 0px;
+  text-align: end;
+}
+
+.sim{
+  transition: 0.5s;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.sim:hover{
+  transition: 0.5s;
+  background-color: #131e5e;
+  color: #ffffff;
+}
+
+.nao{
+  transition: 0.5s;
+  font-weight: bold;
+  background-color: rgb(255, 132, 132);
+  color: #1f0000;
+}
+
+.nao:hover{
+  transition: 0.5s;
+  background-color: rgb(228, 104, 104);
+  color: #1f0000;
+}
+
+.novo{
+  transition: 0.3s;
+  background-color: #ecd82a;
+  color: #000;
+  font-size: 1vw;
+  padding: 10px 45px;
+  margin-left: 15px;
+}
+
+.novo:hover{
+  transition: 0.3s;
+  background-color: #172775;
+  color: rgb(250, 225, 0);
+}
+
+.titulo{
+  font-size: 0.95vw;
+}
+
+.styled{
+  margin:auto;
+  text-align: right; 
+  width: 27%
+}
+
+.titulico{
+  background-color: #000b49;
+  font-size: 0.95vw;
+  color: #fff;
+}
+
+th {
+  position: sticky;
+  top: 0;
+  background-color: #000b49;
+}
+
+.scroll{
+  overflow-y: scroll;
+  height: 93%;
+  width: 100%;
+}
+
+/* ------------------------------------ estilo pagina pos venda -------------------------------------------------------- */
+
+.claro{
+  background-color: #d8d8d8;
+}
+
+.card-claro{
+  background-color: #0f1744;
+  padding: 30px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+/* divs flex sao responsaveis por alinhas os quadrantes da pagina onde esta o formulario */
+
+.flex{
+  display: flex;
+  margin: 0% 0.8%;
+}
+
+/* codigo cliente*/
+
+.box1{
+  width: 17%;
+  /*background-color: rgb(48, 94, 90);*/
+}
+
+.info-codigo{
+  color: #ffffff00;
+  border-width: 1px;
+  color: #000;
+  border-style: solid;
+  border-color: #ffffff00;
+  outline: #ffffff00;
+  text-align: center;
+  font-size: 13.5px;   
+  width: 60%;
+  padding: 10px;
+}
+
+.info-codigo:focus {
+  color: #000b49;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000b49;
+  outline: #000b49;
+}
+
+/* documento */
+
+.box2{
+  width: 25%;
+  /*background-color: rgb(48, 94, 90);*/
+}
+
+.info-cnpj{
+  color: #ffffff00;
+  border-width: 1px;
+  color: #000;
+  border-style: solid;
+  border-color: #ffffff00;
+  outline: #ffffff00;
+  text-align: center;
+  font-size: 13.5px;   
+  width: 70%;
+  padding: 10px;
+}
+
+.info-cnpj:focus {
+  color: #000b49;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000b49;
+  outline: #000b49;
+}
+
+/* cliente nome*/
+
+.box3{
+  width: 45%;
+  /*background-color: rgb(48, 94, 90);*/
+}
+
+.info-nome{
+  color: #ffffff00;
+  border-width: 1px;
+  color: #000;
+  border-style: solid;
+  border-color: #ffffff00;
+  outline: #ffffff00;
+  text-align: center;
+  font-size: 13.5px;   
+  width: 86%;
+  padding: 10px;
+}
+
+.info-nome:focus {
+  color: #000b49;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000b49;
+  outline: #000b49;
+}  
+
+/* uf */
+
+.box7{
+  width: 13.5%;
+  /*background-color: rgb(48, 94, 90);*/
+}
+
+.info-estado{
+  color: #ffffff00;
+  border-width: 1px;
+  color: #000;
+  border-style: solid;
+  border-color: #ffffff00;
+  outline: #ffffff00;
+  text-align: center;
+  font-size: 13.5px;   
+  width: 70%;
+  padding: 10px;
+}
+
+.info-estado:focus {
+  color: #000b49;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000b49;
+  outline: #000b49;
+}
+
+/* cidade */
+
+.box6{
+  width: 35%;
+  /*background-color: rgb(48, 94, 90);*/
+}
+
+.info-municipio{
+  color: #ffffff00;
+  border-width: 1px;
+  color: #000;
+  border-style: solid;
+  border-color: #ffffff00;
+  outline: #ffffff00;
+  text-align: center;
+  font-size: 13.5px;   
+  width: 77%;
+  padding: 10px;
+}
+
+.info-municipio:focus {
+  color: #000b49;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000b49;
+  outline: #000b49;
+}
+
+/* bairro */
+
+.box5{
+  width: 35%;
+  /*background-color: rgb(48, 94, 90);*/
+}
+
+.info-bairro{
+  color: #ffffff00;
+  border-width: 1px;
+  color: #000;
+  border-style: solid;
+  border-color: #ffffff00;
+  outline: #ffffff00;
+  text-align: center;
+  font-size: 13.5px;   
+  width: 81%;
+  padding: 10px;
+}
+
+.info-bairro:focus {
+  color: #000b49;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000b49;
+  outline: #000b49;
+}
+
+/* endereco */
+
+.box4{
+  width: 35%;
+  /*background-color: rgb(48, 94, 90);*/
+}
+
+.info-end{
+  color: #ffffff00;
+  border-width: 1px;
+  color: #000;
+  border-style: solid;
+  border-color: #ffffff00;
+  outline: #ffffff00;
+  text-align: center;
+  font-size: 13.5px;   
+  width: 75%;
+  padding: 10px;
+}
+
+.info-end:focus {
+  color: #000b49;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000b49;
+  outline: #000b49;
+}
+
+/* --------- */
+
+h1{
+  color: #000b49;
+  font-size: 25px;
+  width: 17%;
+}
+
+.form{
+  height: 100%;
+  margin-top: 180px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  width: 100%;
+  background-color: #e9e9e900;
+}
+
+/* cod pedido */
+
+.box8{
+  width: 30%;
+  /*background-color: rgb(255, 174, 0);*/
+}
+
+.info-pedido{
+  color: #ffffff00;
+  border-width: 1px;
+  color: #000;
+  border-style: solid;
+  border-color: #ffffff00;
+  outline: #ffffff00;
+  text-align: center;
+  font-size: 13.5px;   
+  width: 80%;
+  padding: 10px;
+}
+
+/* item produto */
+
+.box9{
+  width: 50%;
+  /*background-color: rgb(255, 174, 0);*/
+}
+
+.info-pedido-item{
+  color: #ffffff00;
+  border-width: 1px;
+  color: #000;
+  border-style: solid;
+  border-color: #ffffff00;
+  outline: #ffffff00;
+  text-align: center;
+  font-size: 13.5px;   
+  width: 80%;
+  padding: 10px;
+}
+
+/* contato do pos venda */
+
+.box10{
+  width: 100%;
+  /*background-color: rgb(255, 174, 0);*/
+}
+
+.box11{
+  width: 85%;
+  margin-left: 15px; 
+  /*background-color: rgb(255, 174, 0);*/
+}
+
+.box12{
+  width: 85%;
+  margin-left: 15px; 
+  /*background-color: rgb(255, 174, 0);*/
+}
+
+.box13{
+  width: 85%;
+  margin-left: 15px; 
+  /*background-color: rgb(255, 174, 0);*/
+}
+
+.info-contato{
+  color: #ffffff00;
+  border-width: 1px;
+  color: #000;
+  border-style: solid;
+  border-color: #ffffff00;
+  outline: #ffffff00;
+  text-align: center;
+  font-size: 13.5px;   
+  width: 100%;
+  padding: 10px;
+}
+
+/* apontamento */
+
+.box14{
+  width: 100%;
+  /*background-color: rgb(255, 174, 0);*/
+}
+
+.info-tipo{
+  color: #ffffff00;
+  border-width: 1px;
+  color: #000;
+  border-style: solid;
+  border-color: #ffffff00;
+  outline: #ffffff00;
+  text-align: center;
+  font-size: 13.5px;   
+  width: 15%;
+  padding: 10px;
+}
+
+.obs{
+  margin: 0% 0.8%;
+}
+
+.observacao{
+  color: #ffffff00;
+  border-width: 1px;
+  color: #000;
+  border-style: solid;
+  border-color: #ffffff00;
+  outline: #ffffff00;
+  font-size: 13.5px;   
+  width: 100%;
+  height: 220px;
+  padding: 10px;
+}
+
+/* botao salvar/cancelar */
+
+/* class dos botoes */
+.tirex{
+  border-style: none;
+  border-width: 0px;
+  font-size: 15px;
+  display: flex;
+  width: 100%;
+  justify-content: right;
+}
+
+/* classe do botao salvar */
+.archive{
+  margin-right: 10px;
+  transition: 0.5s;
+  padding: 15px 20px;
+  background-color: #000b49;
+  color: #d8d8d8;
+  text-align: center;
+  width: auto;
+}
+
+/* hover do botao salvar */
+.archive:hover{
+  transition: 0.5s;
+  padding: 13px 20px;
+  background-color: #27318d;
+  color: #ffee00; 
+  text-align: center;
+}
+
+/* classe do botao cancelar */
+.archivedy{
+  margin-right: 10px;
+  transition: 0.5s;
+  padding: 15px 20px;
+  background-color: #661010;
+  color: #d8d8d8;
+  text-align: center;
+  width: auto;
+}
+
+/* hover do botao cancelar */
+.archivedy:hover{
+  transition: 0.5s;
+  padding: 15px 20px;
+  background-color: #812626;
+  color: #ffee00;
+  text-align: center;
+  width: auto;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+/* --------- */
